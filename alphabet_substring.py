@@ -10,7 +10,7 @@ for i in range(len(s) - 1 ):
         substring = s[i+1]
         
 if substring_len == 0:
+    substring = s[0]
     print("Longest substring in alphabetical order is: " + substring)
 else:
     print("Longest substring in alphabetical order is: " + tempstring)
- 
